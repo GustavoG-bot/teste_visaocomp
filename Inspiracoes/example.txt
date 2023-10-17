@@ -1,0 +1,29 @@
+Install environment
+-------------------
+python -m venv .venv
+
+
+Activate environment (Windows)
+------------------------------
+.venv\Scripts\activate
+
+
+Activate environment (macOS/Linux)
+----------------------------------
+source .venv/bin/activate
+
+
+Install basic dependencies
+--------------------------
+pip install --upgrade pip
+pip install opencv-python flask flask-sock
+
+
+Run server
+----------
+flask --app example run
+
+
+Install advanced dependencies
+-----------------------------
+pip install tensorflow mtcnn
